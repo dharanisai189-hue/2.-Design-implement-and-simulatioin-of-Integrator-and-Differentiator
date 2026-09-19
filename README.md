@@ -26,6 +26,11 @@ T ≥ Rf Cf
 The integrator is most commonly used in analog computers and ADC and signal-wave shaping circuits.
 
 **DESIGN:**
+
+
+<img width="1200" height="1599" alt="WhatsApp Image 2026-09-19 at 6 11 20 AM (1)" src="https://github.com/user-attachments/assets/6a34d3a6-8f75-4443-8622-3d9a3e1a00b9" />
+
+
  
 To obtain the output of an Integrator circuit with component values R1Cf = 0.1ms , Rf = 10 R1 and Cf = 0.01 µF and also if 1 V peak square wave at 1000Hz is applied as input.
 We know the frequency at which the gain is 0 dB, fb = 1 / (2π R1 Cf) Therefore fb = 	 Since fb = 10 fa , and also the gain limiting frequency fa = 1 / (2π Rf Cf)
@@ -43,6 +48,9 @@ Here the negative sign indicates that the output voltage is 180 0 out of phase w
 The differentiator is most commonly used in wave shaping circuits to detect high frequency components in an input signal and also as a rate–of–change detector in FM modulators.
  
 **DESIGN (DIFFERENTIATOR):**
+
+<img width="1200" height="1599" alt="WhatsApp Image 2026-09-19 at 6 11 20 AM (2)" src="https://github.com/user-attachments/assets/f750790d-ee3d-4ccb-84e9-ffaecb90be51" />
+
 
 Design an op-amp differentiator that will differentiate an input signal with fmax = 100HZ Select fa = fmax = 100 HZ = 1 / 2πRFC1
 Let C1 = 0.1μF
@@ -63,26 +71,38 @@ We get, CF = (1.59*103*10-7) / 15.9*103
  
 **INTEGRATOR:**
   **CIRCUIT DIAGRAM**
+  <img width="1599" height="1200" alt="WhatsApp Image 2026-09-19 at 6 11 17 AM" src="https://github.com/user-attachments/assets/fbbc079a-819e-493f-a797-f8603a56019a" />
+
 
 
   **MODEL GRAPH:**
+<img width="1599" height="1200" alt="WhatsApp Image 2026-09-19 at 6 11 17 AM (1)" src="https://github.com/user-attachments/assets/67bf74f3-ffa4-4629-8c83-0a2a34c49c67" />
 
+<img width="1200" height="1599" alt="WhatsApp Image 2026-09-19 at 6 11 18 AM" src="https://github.com/user-attachments/assets/5acde2b0-e1e7-40fa-bdc5-5fa65ec8c10d" />
 
   **TABULATION:**
- 
+ <img width="1599" height="1200" alt="WhatsApp Image 2026-09-19 at 6 11 17 AM" src="https://github.com/user-attachments/assets/014fd461-f476-4947-a741-5b6709230988" />
+
 
 **MODEL CALCULATION:**
 
 **DIFFERENTIATOR:**
   **CIRCUIT DIAGRAM**
+<img width="1200" height="1599" alt="WhatsApp Image 2026-09-19 at 6 11 19 AM" src="https://github.com/user-attachments/assets/8823e4c0-579b-473e-927d-b081297b7909" />
 
 
   **MODEL GRAPH:**
 
+<img width="1200" height="1599" alt="WhatsApp Image 2026-09-19 at 6 11 21 AM (1)" src="https://github.com/user-attachments/assets/236b8f85-b165-49e1-bdbd-32950bd719ab" />
+
+<img width="1200" height="1599" alt="WhatsApp Image 2026-09-19 at 6 11 21 AM (2)" src="https://github.com/user-attachments/assets/68da910f-54e8-46a0-aa84-0cf856bf1658" />
+
 
   **TABULATION:**
 
- 
+
+ <img width="1200" height="1599" alt="WhatsApp Image 2026-09-19 at 6 11 21 AM" src="https://github.com/user-attachments/assets/10f0123f-c0c9-4173-8283-c63ce222b00c" />
+
 
 **LT-SPICE Tool:PROCEDURE:**
 •	Double click on LT-Spice icon.
@@ -95,7 +115,11 @@ We get, CF = (1.59*103*10-7) / 15.9*103
  
   **LT SPICE**
   **CIRCUIT and Waveform**
-  
+
+  <img width="1200" height="1599" alt="WhatsApp Image 2026-09-19 at 6 13 08 AM" src="https://github.com/user-attachments/assets/25831543-3b88-426a-acaa-b2973b183d84" />
+
+ <img width="1200" height="1599" alt="WhatsApp Image 2026-09-19 at 6 13 08 AM" src="https://github.com/user-attachments/assets/6d652852-deae-48f8-8b46-bd0935b28100" />
+
 
 **RESULT:**
 Thus the Integrator and Differentiator are designed and simulated performance was successfully tested using op-amp IC 741 and LT SPICE.
