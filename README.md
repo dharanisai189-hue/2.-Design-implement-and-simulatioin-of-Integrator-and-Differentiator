@@ -26,7 +26,8 @@ T ≥ Rf Cf
 The integrator is most commonly used in analog computers and ADC and signal-wave shaping circuits.
 
 **DESIGN:**
- <img width="1200" height="1599" alt="image" src="https://github.com/user-attachments/assets/dc17cb19-2dcd-4c5a-baab-4948409c83fe" />
+<img width="1598" height="872" alt="image" src="https://github.com/user-attachments/assets/b17f2023-2b34-445b-9dec-a0c7cc7888a3" />
+
 
 To obtain the output of an Integrator circuit with component values R1Cf = 0.1ms , Rf = 10 R1 and Cf = 0.01 µF and also if 1 V peak square wave at 1000Hz is applied as input.
 We know the frequency at which the gain is 0 dB, fb = 1 / (2π R1 Cf) Therefore fb = 	 Since fb = 10 fa , and also the gain limiting frequency fa = 1 / (2π Rf Cf)
@@ -65,32 +66,37 @@ We get, CF = (1.59*103*10-7) / 15.9*103
  
 **INTEGRATOR:**
   **CIRCUIT DIAGRAM**
-<img width="1599" height="1200" alt="image" src="https://github.com/user-attachments/assets/f9f57de0-1b15-4a63-8271-3a756dda90ed" />
+<img width="1027" height="1093" alt="image" src="https://github.com/user-attachments/assets/4ca133e7-8bed-49c2-959b-c445c71cf96a" />
 
 
   **MODEL GRAPH:**
 
 <img width="1599" height="1200" alt="image" src="https://github.com/user-attachments/assets/70062222-047a-4b08-b8d9-30139ac27066" />
-<img width="1200" height="1599" alt="image" src="https://github.com/user-attachments/assets/c601ad07-902c-4a19-80b2-afde1732eda6" />
+<img width="1265" height="908" alt="image" src="https://github.com/user-attachments/assets/040693ae-da92-469b-9ab0-dd48abff70c5" />
+
 
   **TABULATION:**
- <img width="1599" height="1200" alt="image" src="https://github.com/user-attachments/assets/51305228-29ca-4177-8b17-84944003f5c8" />
+<img width="1027" height="1093" alt="image" src="https://github.com/user-attachments/assets/8039245d-0c18-4d54-b8da-1671968d8f5b" />
+
 
 
 **MODEL CALCULATION:**
 
 **DIFFERENTIATOR:**
   **CIRCUIT DIAGRAM**
-<img width="1200" height="1599" alt="image" src="https://github.com/user-attachments/assets/5c1d4eba-eda3-42f5-9844-2375a48d687d" />
+<img width="1016" height="998" alt="image" src="https://github.com/user-attachments/assets/067cafd7-3f7e-4af2-a7c5-5a84e9096718" />
+
 
 
   **MODEL GRAPH:**
-<img width="1200" height="1599" alt="image" src="https://github.com/user-attachments/assets/97ef8a8f-881d-45ce-8619-248b46d24396" />
+<img width="929" height="929" alt="image" src="https://github.com/user-attachments/assets/51d70335-40b6-4430-9af9-d91e0f2e70f1" />
+
 
 <img width="1200" height="1599" alt="image" src="https://github.com/user-attachments/assets/16c7cba7-afa1-4589-bbad-f48dfa590566" />
 
   **TABULATION:**
-<img width="1200" height="1599" alt="image" src="https://github.com/user-attachments/assets/12c9cc9f-e900-4b6d-a097-ebc6f13a963a" />
+<img width="1503" height="696" alt="image" src="https://github.com/user-attachments/assets/3ad5fe94-9fb3-4cd0-ae46-01571a6a9000" />
+
 
  
 
@@ -106,8 +112,10 @@ We get, CF = (1.59*103*10-7) / 15.9*103
   **LT SPICE**
   **CIRCUIT and Waveform**
   <img width="1200" height="1599" alt="image" src="https://github.com/user-attachments/assets/994f5a09-b9cb-4601-bae4-15962317a6e0" />
+<img width="1080" height="560" alt="image" src="https://github.com/user-attachments/assets/92f163d3-02de-42fd-a684-15d976c18d80" />
 
-<img width="1599" height="1200" alt="image" src="https://github.com/user-attachments/assets/838ec4c3-dbaf-4f6a-bf42-f054dd5e2015" />
+<img width="1600" height="820" alt="image" src="https://github.com/user-attachments/assets/9f8f88c3-6f00-441c-b05f-40fd87721f02" />
+
 
 **RESULT:**
 Thus the Integrator and Differentiator are designed and simulated performance was successfully tested using op-amp IC 741 and LT SPICE.
